@@ -6,7 +6,7 @@
 
 let animales = ['perro', 'gato', 'pez', 'loro'];
 
-for (let animal of animales) {
+for (let animal of animales) { // Asigna a animal cada uno de los elementos del array animales
     console.log(animal);
 }
 
