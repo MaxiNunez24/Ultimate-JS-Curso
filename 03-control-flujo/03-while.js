@@ -1,7 +1,7 @@
 // cuales son los numeros pares
 
 // while (condicion) {
-//   // codigo a ejecutar
+//   codigo a ejecutar
 // }
 
 let i = 0;
