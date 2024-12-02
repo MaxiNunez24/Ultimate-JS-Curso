@@ -9,10 +9,10 @@ let b = 7;
 // console.log(a % b, 'Modulo'); // Modulo
 // console.log(a ** b, 'Potencia'); // Potencia
 
-console.log(++a) // Incremento
-console.log(a++) // Incremento despues de la operacion
+console.log(++a) // Pre-Incremento -> Primero incrementa y luego imprime
+console.log(a++) // Pos-Incremento -> Imprime y luego incrementa
 console.log(a) // Incremento despues de la operacion
 
-console.log(--b) // Decremento
-console.log(b--) // Decremento despues de la operacion
+console.log(--b) // Pre-Decremento 
+console.log(b--) // Pos-Decremento despues de la operacion
 console.log(b) // Decremento despues de la operacion
