@@ -9,7 +9,7 @@ animales[2]='dragon'; // Agrega un valor al array
 console.log(animales); // Imprime el array completo
 
 
-animales[10]='pez'; // Agrega un valor al array
+animales[10]='pez'; // Agrega un valor al array -> Completa los campos del Array con undefined hasta llegar al nuevo índice
 
 console.log(animales); // Imprime el array completo
 
