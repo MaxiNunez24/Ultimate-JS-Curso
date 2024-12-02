@@ -1,6 +1,6 @@
 /**
  * Crear un algoritmo que devuelva
- * la cantidad de números posutivos
+ * la cantidad de números positivos
  * de un array
  */
 
