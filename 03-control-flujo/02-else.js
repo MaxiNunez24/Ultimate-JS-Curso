@@ -1,4 +1,4 @@
-// if (condicion){   si las operaciones dentro del if son de una sola línea, se pueden omitir las llaves
+// if (condicion){   si las operaciones dentro del if o del else son de una sola línea, se pueden omitir las llaves
 //
 //     expresion
 // }
