@@ -1,5 +1,5 @@
 function numMayor(a, b){
-    return (a > b) ? a : b;
+    return (a > b) ? a : b; // más eficiente y corto que hacer un if-else
     
 }
 
