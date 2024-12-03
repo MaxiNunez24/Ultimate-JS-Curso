@@ -3,15 +3,15 @@ function Punto(x, y) {
   this.y = y;
   this.dibujar = function () {
     console.log('dibujando en las coordenadas');
-    }
+  }
 }
 
-let punto = {z: 7};
+let punto = { z: 7 };
 Punto.call(punto, 1, 2);
 console.log(punto); // {z: 7, x: 1, y: 2, dibujar: [Function]}
 
 
-//    EL CODIGO DE ABAJO NO ES RECOMENDADO, ES MAS NUNCA DEBERIA USARSE
+//    EL CÓDIGO DE ABAJO NO ES RECOMENDADO, ES MÁS NUNCA DEBERÍA USARSE!
 
 // const Point = new Function('x', 'y', `
 //     this.x = x;

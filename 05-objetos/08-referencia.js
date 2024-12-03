@@ -11,11 +11,11 @@
 // d.prop=1;
 // console.log(c,d); // { prop: 1 } { prop: 1 }
 
-let a = {prop: 1};
+let a = { prop: 1 };
 
-function suma(n){
+function suma(n) {
     n.prop++;
 }
 
 suma(a);
-console.log(a); // 1
+console.log(a); // { prop: 2 } -> Se modifica el objeto original

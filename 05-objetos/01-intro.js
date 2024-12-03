@@ -3,7 +3,7 @@ let name = 'Jorge';
 let direccion = {
     calle: 'Av. Siempre viva',
     numero: 123,
-    };
+};
 
 
 let user = {
@@ -14,7 +14,7 @@ let user = {
         numero: 123,
     },
     activo: true,
-    recuperarClave: function(){
+    recuperarClave: function () {  // Las funciones en un objeto se llaman métodos
         console.log('Recuperando clave');
     },
 };

@@ -10,4 +10,7 @@ const saludo = "Hola \\Mundo!\nbienvenidos a\t mi curso de \"JavaScript\" :)";
  */
 
 
-console.log(saludo); // Hola Mundo! bienvenidos a mi curso de JavaScript :)
+console.log(saludo);
+/* Hola \Mundo!
+   bienvenidos a	 mi curso de "JavaScript" :) 
+*/

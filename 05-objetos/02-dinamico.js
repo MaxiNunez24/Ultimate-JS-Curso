@@ -1,11 +1,11 @@
 // Al declarar un objeto con la palabra reservada const, podemos modificar sus propiedades,
-// pero no podemos asignarle un nuevo valor.
+// pero no podemos asignarle un nuevo valor ej: otro objeto.
 
 const user = { id: 1 };
 
 // Podemos modificar sus propiedades, agregar nuevas propiedades y eliminar propiedades
 user.name = 'Jorge';
-user.guardar = function() {
+user.guardar = function () {
     console.log('Guardando usuario', user.name);
 }
 
